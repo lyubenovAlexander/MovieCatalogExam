@@ -12,6 +12,8 @@ namespace MovieCatalogExam.Tests.DTOs
         [JsonPropertyName("msg")]
         public string Msg { get; set; }
 
+              
+
         [JsonPropertyName("movie")]
         public MovieDTO Movie { get; set; } = new MovieDTO();
     }
